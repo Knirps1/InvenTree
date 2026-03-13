@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-12 04:33+0000\n"
-"PO-Revision-Date: 2026-03-12 04:36\n"
+"POT-Creation-Date: 2026-03-12 14:25+0000\n"
+"PO-Revision-Date: 2026-03-12 14:28\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
@@ -57,7 +57,7 @@ msgstr "Ingen data angivet"
 msgid "This field must be unique."
 msgstr "Dette felt skal være unikt."
 
-#: InvenTree/api.py:815
+#: InvenTree/api.py:822
 msgid "User does not have permission to view this model"
 msgstr "Bruger har ikke tilladelse til at se denne model"
 
@@ -585,7 +585,7 @@ msgstr ""
 #: report/templates/report/inventree_sales_order_report.html:27
 #: report/templates/report/inventree_sales_order_shipment_report.html:28
 #: report/templates/report/inventree_stock_location_report.html:102
-#: stock/api.py:585 stock/api.py:1520 stock/serializers.py:120
+#: stock/api.py:585 stock/api.py:1524 stock/serializers.py:120
 #: stock/serializers.py:172 stock/serializers.py:410 stock/serializers.py:591
 #: stock/serializers.py:930 templates/email/build_order_completed.html:17
 #: templates/email/build_order_required_stock.html:17
@@ -1071,7 +1071,7 @@ msgstr ""
 #: build/models.py:2088 build/serializers.py:938 build/serializers.py:1244
 #: order/serializers.py:1547 order/serializers.py:1568
 #: report/templates/report/inventree_sales_order_shipment_report.html:29
-#: stock/api.py:1408 stock/models.py:445 stock/serializers.py:102
+#: stock/api.py:1412 stock/models.py:445 stock/serializers.py:102
 #: stock/serializers.py:804 stock/serializers.py:1305 stock/serializers.py:1417
 msgid "Stock Item"
 msgstr "Lagervarer"
@@ -1153,7 +1153,7 @@ msgstr "Automatisk alloker serienumre"
 msgid "Automatically allocate required items with matching serial numbers"
 msgstr ""
 
-#: build/serializers.py:413 order/serializers.py:926 stock/api.py:1182
+#: build/serializers.py:413 order/serializers.py:926 stock/api.py:1186
 #: stock/models.py:1923
 msgid "The following serial numbers already exist or are invalid"
 msgstr "Følgende serienumre findes allerede eller er ugyldige"
@@ -8408,52 +8408,52 @@ msgstr ""
 msgid "Filter by numeric Location ID or the literal 'null'"
 msgstr ""
 
-#: stock/api.py:1083
+#: stock/api.py:1087
 msgid "Quantity is required"
 msgstr ""
 
-#: stock/api.py:1088
+#: stock/api.py:1092
 msgid "Valid part must be supplied"
 msgstr ""
 
-#: stock/api.py:1119
+#: stock/api.py:1123
 msgid "The given supplier part does not exist"
 msgstr ""
 
-#: stock/api.py:1129
+#: stock/api.py:1133
 msgid "The supplier part has a pack size defined, but flag use_pack_size not set"
 msgstr ""
 
-#: stock/api.py:1161
+#: stock/api.py:1165
 msgid "Serial numbers cannot be supplied for a non-trackable part"
 msgstr ""
 
-#: stock/api.py:1400
+#: stock/api.py:1404
 msgid "Include Installed"
 msgstr ""
 
-#: stock/api.py:1402
+#: stock/api.py:1406
 msgid "If true, include test results for items installed underneath the given stock item"
 msgstr ""
 
-#: stock/api.py:1409
+#: stock/api.py:1413
 msgid "Filter by numeric Stock Item ID"
 msgstr ""
 
-#: stock/api.py:1430
+#: stock/api.py:1434
 #, python-brace-format
 msgid "Stock item with ID {id} does not exist"
 msgstr ""
 
-#: stock/api.py:1507
+#: stock/api.py:1511
 msgid "Include Part Variants"
 msgstr ""
 
-#: stock/api.py:1537
+#: stock/api.py:1541
 msgid "Date after"
 msgstr ""
 
-#: stock/api.py:1541
+#: stock/api.py:1545
 msgid "Date before"
 msgstr ""
 

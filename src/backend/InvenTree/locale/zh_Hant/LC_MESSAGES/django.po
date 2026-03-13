@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-12 04:33+0000\n"
-"PO-Revision-Date: 2026-03-12 04:36\n"
+"POT-Creation-Date: 2026-03-12 14:25+0000\n"
+"PO-Revision-Date: 2026-03-12 14:28\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -55,9 +55,9 @@ msgstr "未提供資料"
 
 #: InvenTree/api.py:520
 msgid "This field must be unique."
-msgstr ""
+msgstr "此欄位須唯一值。"
 
-#: InvenTree/api.py:815
+#: InvenTree/api.py:822
 msgid "User does not have permission to view this model"
 msgstr "用户沒有權限查閲當前模型。"
 
@@ -351,7 +351,7 @@ msgstr "從可用選項中選擇貨幣"
 
 #: InvenTree/serializers.py:726
 msgid "This field may not be null."
-msgstr ""
+msgstr "此欄位不可為空白。"
 
 #: InvenTree/serializers.py:732
 msgid "Invalid value"
@@ -375,15 +375,15 @@ msgstr "從遠程URL下載圖像失敗"
 
 #: InvenTree/serializers.py:878
 msgid "Invalid content type format"
-msgstr ""
+msgstr "不合規的內容類型格式"
 
 #: InvenTree/serializers.py:881
 msgid "Content type not found"
-msgstr ""
+msgstr "內容類型未發現"
 
 #: InvenTree/serializers.py:887
 msgid "Content type does not match required mixin class"
-msgstr ""
+msgstr "內容類型與所需的 mixin 類別不符"
 
 #: InvenTree/setting/locales.py:20
 msgid "Arabic"
@@ -585,7 +585,7 @@ msgstr "包含變體"
 #: report/templates/report/inventree_sales_order_report.html:27
 #: report/templates/report/inventree_sales_order_shipment_report.html:28
 #: report/templates/report/inventree_stock_location_report.html:102
-#: stock/api.py:585 stock/api.py:1520 stock/serializers.py:120
+#: stock/api.py:585 stock/api.py:1524 stock/serializers.py:120
 #: stock/serializers.py:172 stock/serializers.py:410 stock/serializers.py:591
 #: stock/serializers.py:930 templates/email/build_order_completed.html:17
 #: templates/email/build_order_required_stock.html:17
@@ -738,7 +738,7 @@ msgstr "地點"
 
 #: build/api.py:895 part/serializers.py:1332
 msgid "Output"
-msgstr ""
+msgstr "產出"
 
 #: build/api.py:897
 msgid "Filter by output stock item ID. Use 'null' to find uninstalled build items."
@@ -1071,7 +1071,7 @@ msgstr "庫存品項超額分配"
 #: build/models.py:2088 build/serializers.py:938 build/serializers.py:1244
 #: order/serializers.py:1547 order/serializers.py:1568
 #: report/templates/report/inventree_sales_order_shipment_report.html:29
-#: stock/api.py:1408 stock/models.py:445 stock/serializers.py:102
+#: stock/api.py:1412 stock/models.py:445 stock/serializers.py:102
 #: stock/serializers.py:804 stock/serializers.py:1305 stock/serializers.py:1417
 msgid "Stock Item"
 msgstr "庫存品項"
@@ -1153,7 +1153,7 @@ msgstr "自動分配序號"
 msgid "Automatically allocate required items with matching serial numbers"
 msgstr "自動為需要項目分配對應的序號"
 
-#: build/serializers.py:413 order/serializers.py:926 stock/api.py:1182
+#: build/serializers.py:413 order/serializers.py:926 stock/api.py:1186
 #: stock/models.py:1923
 msgid "The following serial numbers already exist or are invalid"
 msgstr "序號已存在或無效"
@@ -1345,7 +1345,7 @@ msgstr "分配可選的物料清單給生產訂單"
 
 #: build/serializers.py:1123
 msgid "All Items"
-msgstr ""
+msgstr "全部品項"
 
 #: build/serializers.py:1124
 msgid "Untracked Items"
@@ -1357,7 +1357,7 @@ msgstr ""
 
 #: build/serializers.py:1127
 msgid "Item Type"
-msgstr ""
+msgstr "品項類型"
 
 #: build/serializers.py:1128
 msgid "Select item type to auto-allocate"
@@ -1381,7 +1381,7 @@ msgstr "物料清單零件名稱"
 
 #: build/serializers.py:1265
 msgid "Install Into"
-msgstr ""
+msgstr "安裝至"
 
 #: build/serializers.py:1292 build/serializers.py:1510
 msgid "Build"
@@ -2117,11 +2117,11 @@ msgstr ""
 
 #: common/models.py:2600
 msgid "Parameter"
-msgstr ""
+msgstr "參數"
 
 #: common/models.py:2601
 msgid "Parameters"
-msgstr ""
+msgstr "參數集"
 
 #: common/models.py:2647
 msgid "Invalid choice for parameter value"
@@ -2307,7 +2307,7 @@ msgstr "此訊息所連結的討論串"
 
 #: common/models.py:3096
 msgid "Priority"
-msgstr ""
+msgstr "優先序"
 
 #: common/models.py:3138
 msgid "Email Thread"
@@ -3586,7 +3586,7 @@ msgstr ""
 
 #: common/setting/system.py:1150
 msgid "Delete Old Stock Tracking Entries"
-msgstr ""
+msgstr "刪除舊庫存的追蹤紀錄"
 
 #: common/setting/system.py:1152
 msgid "Delete stock tracking entries older than the specified number of days"
@@ -3626,7 +3626,7 @@ msgstr "啓用測試站數據收集以獲取測試結果"
 
 #: common/setting/system.py:1185
 msgid "Enable Machine Ping"
-msgstr ""
+msgstr "啟用設備 Ping"
 
 #: common/setting/system.py:1187
 msgid "Enable periodic ping task of registered machines to check their status"
@@ -4714,11 +4714,11 @@ msgstr ""
 
 #: machine/serializers.py:35
 msgid "Type of the property"
-msgstr ""
+msgstr "屬性類別"
 
 #: machine/serializers.py:40
 msgid "Max Progress"
-msgstr ""
+msgstr "最大進度"
 
 #: machine/serializers.py:41
 msgid "Maximum value for progress type, required if type=progress"
@@ -4774,11 +4774,11 @@ msgstr "目標日期晚於"
 
 #: order/api.py:228
 msgid "Updated Before"
-msgstr ""
+msgstr "更新之前"
 
 #: order/api.py:232
 msgid "Updated After"
-msgstr ""
+msgstr "更新之後"
 
 #: order/api.py:283
 msgid "Has Pricing"
@@ -4877,7 +4877,7 @@ msgstr "開始日期必須早於目標日期"
 
 #: order/models.py:394
 msgid "Address does not match selected company"
-msgstr ""
+msgstr "地址不符合選定的公司"
 
 #: order/models.py:448
 msgid "Order description (optional)"
@@ -4918,7 +4918,7 @@ msgstr "訂單發出日期"
 
 #: order/models.py:506
 msgid "Updated At"
-msgstr ""
+msgstr "更新於"
 
 #: order/models.py:515
 msgid "User or group responsible for this order"
@@ -5154,11 +5154,11 @@ msgstr "銷售訂單發貨"
 
 #: order/models.py:2264
 msgid "Shipment address must match the customer"
-msgstr ""
+msgstr "配送地址必須跟客戶相符"
 
 #: order/models.py:2300
 msgid "Shipping address for this shipment"
-msgstr ""
+msgstr "配送的採購地址"
 
 #: order/models.py:2308
 msgid "Date of shipment"
@@ -6712,11 +6712,11 @@ msgstr ""
 
 #: part/serializers.py:1324
 msgid "Generate Report"
-msgstr ""
+msgstr "產製報表"
 
 #: part/serializers.py:1325
 msgid "Generate a stocktake report for the selected parts"
-msgstr ""
+msgstr "產製選定零件的庫存報表"
 
 #: part/serializers.py:1428
 msgid "Minimum Price"
@@ -7683,7 +7683,7 @@ msgstr "插件的鍵"
 
 #: plugin/models.py:55
 msgid "Name of the plugin"
-msgstr ""
+msgstr "外掛名稱"
 
 #: plugin/models.py:62 plugin/serializers.py:119
 msgid "Package Name"
@@ -8408,54 +8408,54 @@ msgstr ""
 msgid "Filter by numeric Location ID or the literal 'null'"
 msgstr ""
 
-#: stock/api.py:1083
+#: stock/api.py:1087
 msgid "Quantity is required"
 msgstr "請先輸入數量"
 
-#: stock/api.py:1088
+#: stock/api.py:1092
 msgid "Valid part must be supplied"
 msgstr "必須提供有效的零件"
 
-#: stock/api.py:1119
+#: stock/api.py:1123
 msgid "The given supplier part does not exist"
 msgstr "給定的供應商零件不存在"
 
-#: stock/api.py:1129
+#: stock/api.py:1133
 msgid "The supplier part has a pack size defined, but flag use_pack_size not set"
 msgstr "供應商零件有定義的包裝大小，但 use_pack_size 標誌未設置"
 
-#: stock/api.py:1161
+#: stock/api.py:1165
 msgid "Serial numbers cannot be supplied for a non-trackable part"
 msgstr "不能為不可跟蹤的零件提供序列號"
 
-#: stock/api.py:1400
+#: stock/api.py:1404
 msgid "Include Installed"
 msgstr ""
 
-#: stock/api.py:1402
+#: stock/api.py:1406
 msgid "If true, include test results for items installed underneath the given stock item"
 msgstr ""
 
-#: stock/api.py:1409
+#: stock/api.py:1413
 msgid "Filter by numeric Stock Item ID"
-msgstr ""
+msgstr "使用數字庫存品項 ID 做過濾"
 
-#: stock/api.py:1430
+#: stock/api.py:1434
 #, python-brace-format
 msgid "Stock item with ID {id} does not exist"
-msgstr ""
+msgstr "庫存品項 ID {id} 不存在"
 
-#: stock/api.py:1507
+#: stock/api.py:1511
 msgid "Include Part Variants"
-msgstr ""
-
-#: stock/api.py:1537
-msgid "Date after"
-msgstr ""
+msgstr "包括零件變數"
 
 #: stock/api.py:1541
+msgid "Date after"
+msgstr "日前之後"
+
+#: stock/api.py:1545
 msgid "Date before"
-msgstr ""
+msgstr "日期之前"
 
 #: stock/models.py:73
 msgid "Stock Location type"
@@ -8666,7 +8666,7 @@ msgstr "數量不匹配序列號"
 
 #: stock/models.py:1934
 msgid "Cannot assign stock to structural location"
-msgstr ""
+msgstr "無法將庫存分配到結構位置"
 
 #: stock/models.py:2051 stock/models.py:3021
 msgid "Test template does not exist"
@@ -8826,7 +8826,7 @@ msgstr "此結果的測試模板"
 
 #: stock/serializers.py:280
 msgid "No matching test found for this part"
-msgstr ""
+msgstr "未找到與此零件相符的測試"
 
 #: stock/serializers.py:284
 msgid "Template ID or test name must be provided"
@@ -9117,7 +9117,7 @@ msgstr "已手動刪除庫存"
 
 #: stock/status_codes.py:56
 msgid "Serialized stock items"
-msgstr ""
+msgstr "序列化庫存品項"
 
 #: stock/status_codes.py:58
 msgid "Returned to stock"

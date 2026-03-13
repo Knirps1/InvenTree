@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-12 04:33+0000\n"
-"PO-Revision-Date: 2026-03-12 04:36\n"
+"POT-Creation-Date: 2026-03-12 14:25+0000\n"
+"PO-Revision-Date: 2026-03-12 14:28\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -57,7 +57,7 @@ msgstr "未提供数据"
 msgid "This field must be unique."
 msgstr "此字段的值必须是唯一的。"
 
-#: InvenTree/api.py:815
+#: InvenTree/api.py:822
 msgid "User does not have permission to view this model"
 msgstr "用户没有权限查阅当前模型。"
 
@@ -585,7 +585,7 @@ msgstr "包含变体"
 #: report/templates/report/inventree_sales_order_report.html:27
 #: report/templates/report/inventree_sales_order_shipment_report.html:28
 #: report/templates/report/inventree_stock_location_report.html:102
-#: stock/api.py:585 stock/api.py:1520 stock/serializers.py:120
+#: stock/api.py:585 stock/api.py:1524 stock/serializers.py:120
 #: stock/serializers.py:172 stock/serializers.py:410 stock/serializers.py:591
 #: stock/serializers.py:930 templates/email/build_order_completed.html:17
 #: templates/email/build_order_required_stock.html:17
@@ -1071,7 +1071,7 @@ msgstr "库存品项超额分配"
 #: build/models.py:2088 build/serializers.py:938 build/serializers.py:1244
 #: order/serializers.py:1547 order/serializers.py:1568
 #: report/templates/report/inventree_sales_order_shipment_report.html:29
-#: stock/api.py:1408 stock/models.py:445 stock/serializers.py:102
+#: stock/api.py:1412 stock/models.py:445 stock/serializers.py:102
 #: stock/serializers.py:804 stock/serializers.py:1305 stock/serializers.py:1417
 msgid "Stock Item"
 msgstr "库存项"
@@ -1153,7 +1153,7 @@ msgstr "自动分配序列号"
 msgid "Automatically allocate required items with matching serial numbers"
 msgstr "自动为所需项目分配对应的序列号"
 
-#: build/serializers.py:413 order/serializers.py:926 stock/api.py:1182
+#: build/serializers.py:413 order/serializers.py:926 stock/api.py:1186
 #: stock/models.py:1923
 msgid "The following serial numbers already exist or are invalid"
 msgstr "以下序列号已存在或无效"
@@ -8410,52 +8410,52 @@ msgstr "若为真，则包含给定位置的所有子位置中的项目"
 msgid "Filter by numeric Location ID or the literal 'null'"
 msgstr "按数字位置ID或字母“null”筛选"
 
-#: stock/api.py:1083
+#: stock/api.py:1087
 msgid "Quantity is required"
 msgstr "请先输入数量"
 
-#: stock/api.py:1088
+#: stock/api.py:1092
 msgid "Valid part must be supplied"
 msgstr "必须提供有效的零件"
 
-#: stock/api.py:1119
+#: stock/api.py:1123
 msgid "The given supplier part does not exist"
 msgstr "给定的供应商零件不存在"
 
-#: stock/api.py:1129
+#: stock/api.py:1133
 msgid "The supplier part has a pack size defined, but flag use_pack_size not set"
 msgstr "供应商零件有定义的包装大小，但 use_pack_size 标志未设置"
 
-#: stock/api.py:1161
+#: stock/api.py:1165
 msgid "Serial numbers cannot be supplied for a non-trackable part"
 msgstr "不能为不可跟踪的零件提供序列号"
 
-#: stock/api.py:1400
+#: stock/api.py:1404
 msgid "Include Installed"
 msgstr "包含已安装项"
 
-#: stock/api.py:1402
+#: stock/api.py:1406
 msgid "If true, include test results for items installed underneath the given stock item"
 msgstr "如果为真，则包含给定库存项下已安装组件的测试结果"
 
-#: stock/api.py:1409
+#: stock/api.py:1413
 msgid "Filter by numeric Stock Item ID"
 msgstr "按数字库存项ID进行筛选"
 
-#: stock/api.py:1430
+#: stock/api.py:1434
 #, python-brace-format
 msgid "Stock item with ID {id} does not exist"
 msgstr "ID 为 {id} 的库存项不存在"
 
-#: stock/api.py:1507
+#: stock/api.py:1511
 msgid "Include Part Variants"
 msgstr "包含零件变体"
 
-#: stock/api.py:1537
+#: stock/api.py:1541
 msgid "Date after"
 msgstr "日期晚于"
 
-#: stock/api.py:1541
+#: stock/api.py:1545
 msgid "Date before"
 msgstr "日期早于"
 
